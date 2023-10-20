@@ -170,7 +170,6 @@
                 android:background="@drawable/backgroundshape"
                 android:gravity="bottom|center_vertical"
                 android:orientation="vertical"
-                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toEndOf="@+id/lp"
                 tools:layout_editor_absoluteY="0dp">
@@ -204,16 +203,14 @@
                 android:background="@drawable/backgroundshape"
                 android:gravity="bottom|center_vertical"
                 android:orientation="vertical"
-                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"
-                app:layout_constraintStart_toEndOf="@+id/lp">
+                app:layout_constraintStart_toEndOf="@+id/lp2">
 
                 <ImageView
                     android:layout_width="42dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     app:srcCompat="@drawable/humidity" />
-
 
                 <TextView
                     android:layout_width="match_parent"
@@ -229,11 +226,12 @@
                     android:text="TextView" />
             </LinearLayout>
 
+
             <LinearLayout
                 android:id="@+id/lp4"
                 android:layout_width="78dp"
                 android:layout_height="88dp"
-                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
                 android:background="@drawable/backgroundshape"
                 android:gravity="bottom|center_vertical"
                 android:orientation="vertical"
@@ -269,7 +267,103 @@
                 android:background="@drawable/backgroundshape"
                 android:gravity="bottom|center_vertical"
                 android:orientation="vertical"
-                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/lp">
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/humidity" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|center_vertical"
+                    android:text="TextView" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center|center_vertical"
+                    android:text="TextView" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lp6"
+                android:layout_width="78dp"
+                android:layout_height="88dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/backgroundshape"
+                android:gravity="bottom|center_vertical"
+                android:orientation="vertical"
+                app:layout_constraintStart_toEndOf="@+id/lp5"
+                app:layout_constraintTop_toBottomOf="@+id/lp2">
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/humidity" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|center_vertical"
+                    android:text="TextView" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center|center_vertical"
+                    android:text="TextView" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lp7"
+                android:layout_width="78dp"
+                android:layout_height="88dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/backgroundshape"
+                android:gravity="bottom|center_vertical"
+                android:orientation="vertical"
+                app:layout_constraintStart_toEndOf="@+id/lp6"
+                app:layout_constraintTop_toBottomOf="@+id/lp3">
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/humidity" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|center_vertical"
+                    android:text="TextView" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center|center_vertical"
+                    android:text="TextView" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lp8"
+                android:layout_width="78dp"
+                android:layout_height="88dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/backgroundshape"
+                android:gravity="bottom|center_vertical"
+                android:orientation="vertical"
+                app:layout_constraintStart_toEndOf="@+id/lp7"
                 app:layout_constraintTop_toBottomOf="@+id/lp4">
 
                 <ImageView
@@ -291,6 +385,8 @@
                     android:gravity="center|center_vertical"
                     android:text="TextView" />
             </LinearLayout>
+
+
         </androidx.constraintlayout.widget.ConstraintLayout>
 
 
