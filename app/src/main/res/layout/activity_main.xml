@@ -205,7 +205,6 @@
                 app:layout_constraintTop_toTopOf="parent">
 
                 <ImageView
-                    android:id="@+id/windSpeed"
                     android:layout_width="42dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
@@ -213,6 +212,7 @@
 
 
                 <TextView
+                    android:id="@+id/windSpeed"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/merriweathersans_medium"
@@ -226,7 +226,7 @@
                     android:layout_marginBottom="5dp"
                     android:fontFamily="@font/merriweathersans_medium"
                     android:gravity="center|center_vertical"
-                    android:text="Wind Speed"
+                    android:text="WindSpeed"
                     android:textColor="@color/black"
                     android:textSize="10sp" />
             </LinearLayout>
@@ -245,7 +245,6 @@
                 app:layout_constraintTop_toTopOf="parent">
 
                 <ImageView
-                    android:id="@+id/condition"
                     android:layout_width="42dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
@@ -261,12 +260,13 @@
                     android:textColor="@color/black" />
 
                 <TextView
+                    android:id="@+id/condition"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="5dp"
                     android:fontFamily="@font/merriweathersans_medium"
                     android:gravity="center|center_vertical"
-                    android:text="Conditions"
+                    android:text="Condition"
                     android:textColor="@color/black"
                     android:textSize="10sp" />
             </LinearLayout>
@@ -376,12 +376,14 @@
                     android:textColor="@color/black" />
 
                 <TextView
+                    android:id="@+id/Sea"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="5dp"
                     android:fontFamily="@font/merriweathersans_medium"
                     android:gravity="center|center_vertical"
                     android:text="Sea"
+                    android:textColor="@color/black"
                     android:textSize="10sp" />
             </LinearLayout>
 
