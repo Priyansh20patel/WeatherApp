@@ -1,7 +1,5 @@
 # WeatherApp
 
-Project Name: Weather App
-
 Description:
 Kotlin Weather App is a user-friendly Android application that provides up-to-date weather information for cities around the world. With an interactive interface, users can effortlessly check current weather conditions, temperature, and forecasts. Whether you're planning your day or getting ready for a trip, Kotlin Weather App helps you stay informed about the weather at your fingertips.
 
