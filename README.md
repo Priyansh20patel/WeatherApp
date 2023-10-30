@@ -2,7 +2,7 @@
 project_MAD
 
 
-Project Name: Weatherb App
+Project Name: Weather App
 
 
 Description:
